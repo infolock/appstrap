@@ -8,7 +8,8 @@ module.exports = function (wallaby) {
 
     tests: [
       {pattern: 'interface/src/**/*.spec.js'},
-      {pattern: 'lib/**/*.spec.js'}
+      {pattern: 'lib/**/*.spec.js'},
+      {pattern: '_test/**/*.spec.js'}
     ],
 
     testFramework: 'jest',
